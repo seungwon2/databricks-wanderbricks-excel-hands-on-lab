@@ -1,0 +1,178 @@
+{
+  "slug": "databricks-wanderbricks-excel-hands-on-lab",
+  "github_owner": "seungwon2",
+  "languages": [
+    "kor"
+  ],
+  "example_name": "alex",
+  "title": {
+    "kor": "Wanderbricks Excel 핸즈온 랩",
+    "eng": "Wanderbricks Excel Hands-on Lab"
+  },
+  "sections": [
+    {
+      "dir": "00-introduction",
+      "title": {
+        "kor": "소개",
+        "eng": "Introduction"
+      },
+      "pages": [
+        {
+          "file": "prerequisites.md",
+          "title": {
+            "kor": "사전 준비",
+            "eng": "Prerequisites"
+          }
+        },
+        {
+          "file": "scenario.md",
+          "title": {
+            "kor": "Wanderbricks 시나리오 & 페르소나",
+            "eng": "Wanderbricks Scenario & Personas"
+          }
+        }
+      ]
+    },
+    {
+      "dir": "01-excel-upload",
+      "title": {
+        "kor": "1) 엑셀에서 올리기",
+        "eng": "1) Upload from Excel"
+      },
+      "pages": [
+        {
+          "file": "1-1-connect.md",
+          "title": {
+            "kor": "1.1) 엑셀 Add-in 연결하기",
+            "eng": "1.1) Connect the Excel Add-in"
+          }
+        },
+        {
+          "file": "1-2-write-back.md",
+          "title": {
+            "kor": "1.2) 7월 예약을 업로드 테이블로 쓰기",
+            "eng": "1.2) Write July Bookings to an Upload Table"
+          }
+        }
+      ]
+    },
+    {
+      "dir": "02-auto-pipeline",
+      "title": {
+        "kor": "2) 자동 파이프라인 만들기",
+        "eng": "2) Build an Automated Pipeline"
+      },
+      "pages": [
+        {
+          "file": "2-1-bronze.md",
+          "title": {
+            "kor": "2.1) Bronze: 시스템 데이터와 엑셀 업로드 이력",
+            "eng": "2.1) Bronze: System Data and Upload History"
+          }
+        },
+        {
+          "file": "2-2-silver-gold.md",
+          "title": {
+            "kor": "2.2) Silver·Gold: 정제, 제외 행, 고객 360",
+            "eng": "2.2) Silver & Gold: Cleansing, Rejects, Customer 360"
+          }
+        },
+        {
+          "file": "2-3-job-trigger.md",
+          "title": {
+            "kor": "2.3) Job과 테이블 변경 트리거",
+            "eng": "2.3) Job and Table Update Trigger"
+          }
+        },
+        {
+          "file": "2-4-auto-refresh.md",
+          "title": {
+            "kor": "2.4) 8월 엑셀로 자동 반영 확인",
+            "eng": "2.4) Verify Automatic Refresh with August Data"
+          }
+        }
+      ]
+    },
+    {
+      "dir": "03-excel-results",
+      "title": {
+        "kor": "3) 엑셀로 결과 받기",
+        "eng": "3) Get Results in Excel"
+      },
+      "pages": [
+        {
+          "file": "3-1-import-refresh.md",
+          "title": {
+            "kor": "3.1) Gold 가져오기와 새로고침",
+            "eng": "3.1) Import and Refresh Gold"
+          }
+        },
+        {
+          "file": "3-2-optional-fix-rejects.md",
+          "title": {
+            "kor": "3.2) (Optional) 제외 행 고쳐서 다시 올리기",
+            "eng": "3.2) (Optional) Fix and Re-upload Rejected Rows"
+          }
+        }
+      ]
+    },
+    {
+      "dir": "04-metric-view-dashboard",
+      "title": {
+        "kor": "4) Metric View와 대시보드",
+        "eng": "4) Metric View and Dashboard"
+      },
+      "pages": [
+        {
+          "file": "4-1-mv-bookings.md",
+          "title": {
+            "kor": "4.1) Metric View: 예약",
+            "eng": "4.1) Metric View: Bookings"
+          }
+        },
+        {
+          "file": "4-2-dashboard.md",
+          "title": {
+            "kor": "4.2) Metric View로 대시보드 만들기",
+            "eng": "4.2) Build a Dashboard on the Metric View"
+          }
+        }
+      ]
+    },
+    {
+      "dir": "05-genie",
+      "title": {
+        "kor": "5) Genie로 묻기",
+        "eng": "5) Ask Genie"
+      },
+      "pages": [
+        {
+          "file": "5-1-genie-agent.md",
+          "title": {
+            "kor": "5.1) Genie Agent 만들기",
+            "eng": "5.1) Create a Genie Agent"
+          }
+        },
+        {
+          "file": "5-2-genie-one-excel.md",
+          "title": {
+            "kor": "5.2) Genie One과 엑셀 안의 Genie",
+            "eng": "5.2) Genie One and Genie in Excel"
+          }
+        }
+      ]
+    },
+    {
+      "dir": "99-wrap-up",
+      "title": {
+        "kor": "마무리",
+        "eng": "Wrap-up"
+      },
+      "single": true
+    }
+  ],
+  "lint": {
+    "forbidden_terms": [],
+    "allowed_emails": []
+  }
+}
